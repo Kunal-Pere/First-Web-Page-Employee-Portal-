@@ -1,2 +1,2 @@
 # First-Web-Page-Employee-Portal-
-I am creating sample employee portal using HTML and CSS. I used visual studio code for coding.. I hope you like it..!!! if you are looking for basic coding in html/css/java script then you can contact..!!
+I am creating sample employee portal using HTML and CSS. I used visual studio code for coding.. I hope you like it..!!! if you are looking for basic coding in html/css/javascript then you can contact..!!
