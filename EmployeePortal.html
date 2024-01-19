@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title> Employee Portal </Title>
+        <link rel="icon" href="./Image/icons8-cute-cut-pro-120.png">
+        <style>
+            body {
+                margin: 0%;
+                padding: 0%;
+                background-color: #CEEFF2;
+                font-family: Arial,sans-serif;
+            }
+
+            header, footer{
+
+                text-align: center;
+                padding: 2px;
+
+            }
+            .navitem{
+                display: inline;
+                padding: 15px;
+                
+            }
+            .navitem a {
+
+                text-decoration: none;
+
+            }
+            .registerform{
+
+                width: max-content;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .employeetable {
+
+                text-align: center;
+                        
+            }
+            
+            table {
+
+                align-items: center;
+                width: 100%;
+                
+            }
+
+            th, td {
+
+                border: 1px solid black;
+
+            }
+            
+            .contactus{
+
+                text-align: center;
+            }
+
+
+
+        </style>
+    </head>
+
+    <body>
+
+        <header>
+            <h1 style="font-size: 30px; background-color: chocolate;color: blue; text-align: center;"> Welcome To Company Employee Portal </h1>
+            <nav>
+            <ul>
+
+                <li class="naviteam"><a href="#Employee-Registration">Employee-Registration</a></li> <br>
+                <li class="naviteam"><a href="#Employee-Directory">Employee-Directory</a></li> <br>
+                <li class="naviteam"><a href="#Contact-Us">Contact-Us</a></li>
+            </ul>
+            <nav>
+        </header>
+            <image src="https://blog.pixentia.com/hs-fs/hubfs/Maximize%20your%20employee%20experience%20with%20an%20HR%20intranet%20portal-1.jpg?width=800&name=Maximize%20your%20employee%20experience%20with%20an%20HR%20intranet%20portal-1.jpg" style="width: 100%;"> 
+            <section id="Employee-Registration" class="registerform">
+                <h2 style="background-color: chocolate;color: blue; text-align: center;"> Employee Registration </h2>
+                <p><b>Fill the below details for registration.</b></p><br>
+                <form>
+                    <label for="Name"> Name : </label>
+                    <input type="text"id="Name"><br><br>
+                    <label for="Surname"> Surname : </label>
+                    <input type="text"id="Surname"><br><br>
+                    <label for="Gender"> Select Gender : </label>
+            <input type="radio" value="Male" id="Male" name="Gender">
+                     <label for="Male"> Male </label>
+
+            <input type="radio" value="Female" id="Female" name="Gender">
+                     <label for="Female"> Female </label> <br><br>
+
+                     <label for="Designation"> Designation :- </label>              
+                <Select id="Designation">
+                        <option>Cloud Engineer</option>
+                        <option>Devops Engineer </option>
+                        <option>Web Developer</option>
+                        <option>Human Resource</option>
+                </Select><br><br>
+                    <label for="Email-ID"> Email-ID : </label>
+                    <input type="email"id="Email-ID "><br><br>
+                    <label for="Password"> Password : </label>
+                    <input type="password"id="Password "><br><br>
+                    <label for="DOB"> DOB : </label>
+                    <input type="date"id="DOB"><br><br>
+                    
+                    <label for="Select Country"> Select Country :- </label>              
+                <Select id="Country">
+                        <option value="India">India</option>
+                        <option value="USA">USA </option>
+                        <option value="UK">UK </option>
+                        <option value="RSA">RSA</option>
+                </Select><br><br>
+                    <label for="Joining-Date"> Joining-Date : </label>
+                    <input type="date"id="Joining-Date"> <br><br>
+
+                    <input type="checkbox" id="tearms">
+                    <label for="tearms"> All the information is true and correct. </label> <br><br>
+                    <input type="submit"> <input type="reset">
+
+                </form>
+            </section>
+
+            <section id="Employee-Directory" class="employeetable">
+                <h2 style="background-color:chocolate;color:blue;text-align: center;">Employee-Directory</h2>
+                <p><b>List of all registered employee.</b></p>,<br>
+
+                <table>
+                    <tr>
+                        <th> Employee Name</th>
+                        <th> Designation</th>
+                        <th> Gender</th>
+                        <th> Country</th>
+                    </tr>
+
+                    <tr>
+                        <td> Kunal Pere</td>
+                        <td> Cloud Engineer</td>
+                        <td> Male </td>
+                        <td> India</td>
+                    </tr>
+
+                    <tr>
+                        <td> Neha Bherde</td>
+                        <td> Devops Engineer</td>
+                        <td> Female </td>
+                        <td> India</td>
+                    </tr>
+
+                    <tr>
+                        <td> Graham Smith</td>
+                        <td> Web Developer</td>
+                        <td> Male </td>
+                        <td> USA</td>
+                    </tr>
+
+                    <tr>
+                        <td> Julie Robert</td>
+                        <td> Human Resource</td>
+                        <td> Female </td>
+                        <td> UK</td>
+                    </tr>
+
+                </table>
+
+            </section>
+
+            <section id="Contact-Us" class="contactus">
+                <h2 style="background-color: chocolate; color: blue;text-align: center;">Contact-Us</h2>
+                <p><b>Office Address:</b></p>
+                <p> Tech_Mahindra, Hinjewadi, Phase-3, Pune(Maharashtra).</p>
+                <p> Email:- www.techmahindra.com</p>
+                <p> Timings:- 24x7</p>
+                <p> Tel:- +91 1234567890 </p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242005.87276434994!2d73.42780528671871!3d18.6036917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bbb1632f0a4d%3A0xd295ef93a700532b!2sTech%20Mahindra%20Ltd!5e0!3m2!1sen!2sin!4v1705586647456!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br><br>
+
+
+
+
+            </section>
+
+            <footer>
+                <p style="background-color: chocolate;color: blue;"><b>&copy; 2024 All Right Reserved..</b></p>
+            </footer>
+
+    </body>
+
+
+</html>
